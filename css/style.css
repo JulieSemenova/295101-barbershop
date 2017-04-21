@@ -1,9 +1,197 @@
+html,
 body {
+  min-width: 1122px;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  /* position: relative; */
 	font-family: "PT Sans Narrow", "Arial", sans-serif;
 	font-size: 14px;
 	line-height: 24px;
 	color: #000000;
-	font-weight: bold;
+	font-weight: bold;  
+}
+
+ /*body::after {
+  content: "";
+  position: absolute;
+  min-height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0.4;
+  background: url("../../barbershop/previews/barbershop-shop.jpg") no-repeat center 0;
+} */
+
+.clearfix::after {
+  content: "";
+  
+  display: table;
+  clear: both;
+}
+
+.container {
+  width: 940px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.lk {
+  display: none;
+}
+
+.main-header {
+  margin-bottom: 60px;
+}
+
+.header-logo {
+  float: left;
+  width: 115px;
+  min-height: 70px;
+}
+
+.main-navigation {
+  float: left;
+  width: 700px;
+  min-height: 70px;
+}
+
+.user-block {
+  float: right;
+  width: 120px;
+  min-height: 70px;
+    background-color: pink;
+}
+
+.index-logo {
+  width: 368px;
+  min-height: 204px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 25px;
+}
+
+.features {
+  margin-bottom: 80px;
+}
+
+.features-item {
+  float: left;
+  width: 300px;
+  min-height: 175px;
+  margin-right: 20px;
+}
+
+.features-item:last-child {
+  margin-right: 0;
+}
+
+.index-content {
+  margin-bottom: 35px;
+  padding: 50px 80px;
+}
+
+.index-content-left {
+  float: left;
+  width: 380px;
+  min-height: 330px;
+}
+
+.index-content-right {
+  float: right;
+  width: 300px;
+  min-height: 330px;
+}
+
+.main-shop {
+  margin-bottom: 50px;
+   background-color: red;
+}
+
+.sorting {
+  float: left;
+  width: 210px;
+  min-height: 620px;
+  background-color: green;
+}
+
+.catalog {
+  float: right;
+  width: 730px;
+  min-height: 600px;
+  background-color: yellow;
+}
+
+.catalog-item {
+  float: left;
+  width: 220px;
+  min-height: 290px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  background-color: orange;
+}
+
+.catalog-item :nth-child(3){
+  margin-right: 0;
+}
+
+.paginator {
+  background-color: grey;
+  clear: both;
+}
+
+.main-footer {
+  margin-top: 65px;
+  padding-top: 60px;
+  padding-bottom: 40px;
+  background-color: lightblue;
+}
+
+.item-photo {
+  float: left;
+  width: 460px;
+  min-height: 670px;
+  background: green;
+}
+
+.item-photo a {
+  margin-right: 16px;
+}
+
+.item-photo a:last-child {
+  margin-right: 0;
+}
+
+.item-info {
+  float: right;
+  width: 400px;
+  min-height: 520px;
+  background-color: orange;
+}
+
+.map {
+  display: none;
+}
+
+.footer-contacts {
+  float: left;
+  width: 320px;
+  margin-right: 60px;
+  min-height: 90px;
+}
+
+.footer-social {
+  float: left;
+  width: 180px;
+  min-height: 90px;
+}
+
+.footer-copyright {
+  float: right;
+  width: 180px;
+  min-height: 90px;
 }
 
 h1,
@@ -11,3 +199,4 @@ h2 {
 	font-size: 30px;
 	line-height: 42px;
 }
+
