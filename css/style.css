@@ -1274,11 +1274,13 @@ h1 {
   border: none;
   border-radius: 100px;
   outline: none;
-  /*-webkit-appearance: none;*/
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
 }
 
 
-/*.sorting-parameter::after {
+.sorting-parameter::after {
   position: absolute;
   content: '';
   right: 20px;
@@ -1297,7 +1299,7 @@ h1 {
   border-bottom: none;
   border-left-color: transparent;
   border-right-color: transparent;
-}*/
+}
 
 .sorting-parameter select:hover {
   color: #323232;
