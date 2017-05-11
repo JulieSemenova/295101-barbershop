@@ -1,6 +1,7 @@
-# Учебный проект «Барбершоп»
+# Личный проект «Глейси»
 
 * Студент: [Юлия Семенова](https://up.htmlacademy.ru/htmlcss/17/user/295101).
+* Наставник: `Иван Казанцев`.
 
 ---
 
@@ -17,13 +18,13 @@ _`.editorconfig`, `.gitignore`, `Contributing.md`, `Readme.md`._
 
 #### 2. Создайте форк
 
-[Откройте мастер-репозиторий](https://github.com/htmlacademy-htmlcss/295101-barbershop) и нажмите кнопку «Fork» в правом верхнем углу. Репозиторий из Академии скопируется в ваш аккаунт.
+[Откройте мастер-репозиторий](https://github.com/htmlacademy-htmlcss/295101-gllacy) и нажмите кнопку «Fork» в правом верхнем углу. Репозиторий из Академии скопируется в ваш аккаунт.
 
-<img width="769" alt="" src="https://cloud.githubusercontent.com/assets/10909/12391800/6077bf90-bdfb-11e5-88e1-7589f1d4bcc7.jpg">
+<img width="769" alt="" src="https://cloud.githubusercontent.com/assets/10909/12391926/4aaa72b0-bdfc-11e5-9324-e0597e8e0084.jpg">
 
 Получится вот так:
 
-<img width="769" alt="" src="https://cloud.githubusercontent.com/assets/10909/12391804/6d683b76-bdfb-11e5-87fa-35a0aa855e1c.jpg">
+<img width="769" alt="" src="https://cloud.githubusercontent.com/assets/10909/12391927/4ad24f1a-bdfc-11e5-83e9-eb692950a6e5.jpg">
 
 #### 3. Клонируйте репозиторий на свой компьютер
 
